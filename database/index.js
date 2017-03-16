@@ -16,7 +16,8 @@ var pizzaSchema = mongoose.Schema({
   sauce: String,
   topping1: String,
   topping2: String,
-  topping3: String
+  topping3: String,
+  price: Number
 });
 
 var Pizza = mongoose.model('Pizza', pizzaSchema);
