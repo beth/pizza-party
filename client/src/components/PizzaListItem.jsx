@@ -7,6 +7,7 @@ const PizzaListItem = (props) => (
     <p> { props.pizza.topping1 } </p>
     <p> { props.pizza.topping2 } </p>
     <p> { props.pizza.topping3 } </p>
+    <p> { props.pizza.price } </p>
   </li>
 )
 
